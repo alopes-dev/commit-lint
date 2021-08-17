@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "commit": "cz",
+    "type-check": "tsc --pretty --noEmit",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
