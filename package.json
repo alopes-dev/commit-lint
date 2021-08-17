@@ -2,8 +2,8 @@
   "name": "commit-lint",
   "version": "0.1.0",
   "private": true,
-  "husky":{
-    "hooks":{
+  "husky": {
+    "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
